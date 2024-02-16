@@ -726,7 +726,7 @@ export async function deleteUpdate(message) {
     try {
         
        
-      if (typeof process.env.antidelete === 'undefined' || process.env.antidelete.toLowerCase() === 'false') return;
+      if (typeof process.env.antidelete === 'undefined' || process.env.antidelete.toLowerCase() === 'true') return;
 
 
         const {
